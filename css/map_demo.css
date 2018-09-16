@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  height: 1.87733333rem;
+  width: 100%;
+  padding: 0 0.42666667rem;
+  line-height: 1.87733333rem;
+  background: #19496D;
+}
+header .header-box {
+  position: relative;
+}
+header .header-box .head-portrait {
+  display: inline-block;
+  font-size: 0.64rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .header-box .head-map {
+  display: inline-block;
+  font-size: 0.768rem;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+header .header-box .head-info {
+  display: inline-block;
+  font-size: 0.64rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section {
+  position: relative;
+}
+section .tab-box {
+  width: 14.08rem;
+  padding: 0.42666667rem;
+  height: 3.41333333rem;
+  background:#19496D;
+  position: absolute;
+  bottom: 0.64rem;
+  left: 50%;
+  margin-left: -7.04rem;
+  border-radius: 0.42666667rem;
+}
+section .tab-box .tab-tit {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  font-size: 0;
+}
+section .tab-box .tab-tit a {
+  width: 50%;
+  height: 100%;
+  color: #f2eaea;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.64rem;
+}
+section .tab-box .tab-tit a.curr {
+  color: #333333;
+  background: #ffffff;
+}
+section .tab-box .tab-info {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 0.85333333rem;
+  background: #f2eaea;
+  color: #333333;
+  padding: 0.21333333rem;
+}
