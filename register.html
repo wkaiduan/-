@@ -45,7 +45,8 @@
 			<ul>
 				<li class="clearfloat">
 					<p class="tit fl">手机号</p>
-					<input type="text" id="" value="" class="shuru fl" placeholder="请输入手机号码" />
+					<input type="text" id="" value="" class="shuru fl" placeholder="请输入手机号码"  maxlength="11" pattern="^(0|86|17951)?1[0-9]{10}" 
+    					oninvalid="setCustomValidity('请输入11位手机号');"/>
 				</li>
 				<li class="clearfloat">
 					<p class="tit fl">验证码</p>
